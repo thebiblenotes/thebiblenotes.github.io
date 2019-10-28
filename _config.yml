@@ -1,0 +1,8 @@
+title: The Bible Notes
+description: >-
+  Quality takeaways from reading the Bible
+category_order:
+  - 'Exodus'
+markdown: kramdown
+plugins:
+  - jekyll-feed

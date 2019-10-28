@@ -1,0 +1,56 @@
+---
+layout: page
+title: The God who is faithful to his promises (Exodus 1)
+category: Exodus
+order: 1
+---
+
+## The backdrop to Exodus
+
+The first seven verses of Exodus form the backdrop to the whole book. It tells about the descendants of Jacob that had become numerous and grown strongly in the land of Egypt after he passed.
+
+> <sup>1</sup> These are the names of the sons of Israel who came to Egypt with Jacob, each with his household: <sup>2</sup> Reuben, Simeon, Levi, and Judah, <sup>3</sup> Issachar, Zebulun, and Benjamin, <sup>4</sup> Dan and Naphtali, Gad and Asher. <sup>5</sup> All the descendants of Jacob were seventy persons; Joseph was already in Egypt. <sup>6</sup> Then Joseph died, and all his brothers and all that generation. <sup>7</sup> But the people of Israel were fruitful and increased greatly; they multiplied and grew exceedingly strong, so that the land was filled with them. (Exodus 1:1-7).
+
+In order to understand this backdrop, we need to look at where the book of Exodus fits in the Bible. The book of Exodus is part of a group of books known as the Pentateuch, which comprises of the first five books of the Old Testament that form the basis for the whole of it.
+
+<div class="mermaid">
+    graph TD
+        A("Foundations:<br />Creation (Genesis 1&#8212;11)")
+</div>
+
+<div class="mermaid">
+    graph TD
+        B("God's promise:<br/>
+        Stated and begun (Genesis 12&#8212;50)")
+        C("God's promise: Fulfilled<br />
+        • The Exodus (Exodus 1&#8212;18)<br />
+        • The Covenant (Exodus 19 to Numbers 10)<br />
+        • The Land (Joshua)")
+        D("Delay! (Numbers 11 to Deuteronomy)")
+        C-->D
+        D-->C
+        B-->C;
+</div>
+
+As can be seen from the diagram above, Exodus 1-18 tells us the working out of God's gracious promises given to Abraham in Genesis 12:
+
+> <sup>1</sup> Now the LORD said to Abram, “Go from your country and your kindred and your father's house to the land that I will show you. <sup>2</sup> And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. <sup>3</sup> I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.” (Genesis 12:1-3)
+
+Essentially, God promised that Abraham would give rise to a numerous people, that these people would be blessed and in turn be be a blessing to the entire world, and that Abraham's descendants would be given their own special place to live. At this point in the start of the book of Exodus, however, it looks like the descendants had become numerous but they were still in a foreign land.
+
+## God's plan cannot be thwarted by the sinfulness of the world
+
+We are then told that a new Pharaoh had just taken the throne in Egypt and became afraid of losing his grip of power (verses 8-10).
+
+> <sup>8</sup> Now there arose a new king over Egypt, who did not know Joseph. <sup>9</sup> And he said to his people, “Behold, the people of Israel are too many and too mighty for us. <sup>10</sup> Come, let us deal shrewdly with them, lest they multiply, and, if war breaks out, they join our enemies and fight against us and escape from the land.” (Exdous 1:8-10 ESV)
+
+So then in his sinfulness he did two things against God's purpose:
+
+<ol class="content-list">
+    <li>Forcing the Israelite men to labouringly build two store cities, namely Pithom and Raamses (v. 11).</li>
+    <li>Asking Shiprah and Puah, the Hebrew midwives, to perform genocide by killing the male babies of the Israelites (v. 16).</li>
+</ol>
+
+> <sup>11</sup> Therefore they set taskmasters over them to afflict them with heavy burdens. They built for Pharaoh store cities, Pithom and Raamses. <sup>12</sup> But the more they were oppressed, the more they multiplied and the more they spread abroad. And the Egyptians were in dread of the people of Israel. <sup>13</sup> So they ruthlessly made the people of Israel work as slaves <sup>14</sup> and made their lives bitter with hard service, in mortar and brick, and in all kinds of work in the field. In all their work they ruthlessly made them work as slaves. <sup>15</sup> Then the king of Egypt said to the Hebrew midwives, one of whom was named Shiphrah and the other Puah, <sup>16</sup> “When you serve as midwife to the Hebrew women and see them on the birthstool, if it is a son, you shall kill him, but if it is a daughter, she shall live.” <sup>17</sup> But the midwives feared God and did not do as the king of Egypt commanded them, but let the male children live. <sup>18</sup> So the king of Egypt called the midwives and said to them, “Why have you done this, and let the male children live?” <sup>19</sup> The midwives said to Pharaoh, “Because the Hebrew women are not like the Egyptian women, for they are vigorous and give birth before the midwife comes to them.” <sup>20</sup> So God dealt well with the midwives. And the people multiplied and grew very strong. <sup>21</sup> And because the midwives feared God, he gave them families. <sup>22</sup> Then Pharaoh commanded all his people, “Every son that is born to the Hebrews you shall cast into the Nile, but you shall let every daughter live.” (Exodus 1:11-22 ESV)
+
+However, it is clear that Pharaoh was not able to stop God from keeping his word: God's faithfulness to his promises was shown in the growth of the Israelites despite oppression, even all the more (v. 12), and through the midwives who refused to carry out Pharaoh's order (vv. 19-21).
