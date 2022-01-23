@@ -3,6 +3,7 @@ description: >-
   Quality takeaways from reading the Bible
 category_order:
   - 'Exodus'
+  - 'Psalms'
 markdown: kramdown
 plugins:
   - jekyll-feed
