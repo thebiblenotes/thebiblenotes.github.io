@@ -1,0 +1,9 @@
+lang_name: "English"
+title: "The Bible Notes"
+description: >-
+  Quality takeaways from reading the Bible
+toggle_sidebar: "Toggle Sidebar"
+category_order:
+  - 'Exodus'
+  - 'Psalms'
+  - 'Ephesians'
