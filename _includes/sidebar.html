@@ -1,0 +1,48 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3><a href="/">{{ site.data.l10n.title }}</a></h3>
+        <h6>{{ site.data.l10n.description }}</h6>
+    </div>
+    <ul class="list-unstyled components">
+        {% assign pages_by_category = site.pages | group_by: "category" %}
+        {% for category_name in site.data.l10n.category_order %}
+            {% assign category = pages_by_category | where: "name", category_name | first %}
+            {% assign li_class = "" %}
+            {% assign ul_class = "" %}
+            {% assign a_class = "collapsed" %}
+            {% assign aria_expanded = "false" %}
+            {% if category_name == page.category %}
+                {% assign a_class = "" %}
+                {% assign li_class = "active" %}
+                {% assign ul_class = "show" %}
+                {% assign aria_expanded = "true" %}
+            {% endif %}
+            <li class="{{ li_class }}">
+                {% if category.items %}
+                    <a class="dropdown-toggle {{ a_class }}" href="#{{ category_name }}Submenu" data-toggle="collapse"
+                        aria-expanded="{{ aria_expanded }}" aria-controls="{{ category_name }}Submenu">
+                        {{ category_name }}
+                    </a>
+                    <ul class="list-unstyled collapse {{ ul_class }}" id="{{ category_name }}Submenu">
+                        {% assign items = category.items | sort: "order" %}
+                        {% for item in items %}
+                            <li>
+                                {% assign selected="" %}
+                                {% if item.title == page.title %}
+                                {% assign selected="selected" %}
+                                {% endif %}
+                                <a href="{{ item.url | baseurl }}" class="{{ selected }}">
+                                    {{ item.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <a href="">
+                        {{ category_name }}
+                    </a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
