@@ -1,0 +1,10 @@
+lang_name: "Bahasa Indonesia"
+title: "Catatan Alkitab"
+description: >-
+  Renungan berkualitas dari pembacaan Alkitab
+toggle_sidebar: "Alih Bilah Kiri"
+category_order:
+  - 'Keluaran'
+  - 'Mazmur'
+  - 'Yohanes'
+  - 'Efesus'
