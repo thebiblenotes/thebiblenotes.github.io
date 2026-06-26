@@ -1,0 +1,9 @@
+languages: ["en", "id"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/img"]
+parallel_localization: true
+markdown: kramdown
+repository: thebiblenotes/thebiblenotes.github.io
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
