@@ -1,0 +1,18 @@
+<select name="forma" onchange="location = this.value;">
+    {% for lang in site.languages %}
+    {% assign lang_name = site.data[lang].l10n.lang_name %}
+        {% if lang == site.default_lang %}
+            {% if lang == site.active_lang %}
+                <option value="{{ page.url }}" selected>{{ lang_name }}</option>
+            {% else %}
+                <option value="{{ page.url }}">{{ lang_name }}</option>
+            {% endif %}
+        {% else %}
+            {% if lang == site.active_lang %}
+                <option value="/{{ lang }}{{ page.url }}" selected>{{ lang_name }}</option>
+            {% else %}
+                <option value="/{{ lang }}{{ page.url }}">{{ lang_name }}</option>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</select>

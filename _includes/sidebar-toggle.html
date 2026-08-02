@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-outline-info">
+            <i class="fas fa-align-left"></i>
+            <span>{{ site.data[site.active_lang].l10n.toggle_sidebar }}</span>
+        </button>
+        <div>
+            {%- include lang-switcher.html -%}
+        </div>
+    </div>
+</nav>
